@@ -65,7 +65,7 @@ Exemplo de conteúdo do processos.txt:
 4,Processo D,1,4,IO
 
 
-(Formato ilustrativo: ID, Prioridade, Tempo de Execução)
+(Formato ilustrativo: ID, Nome, Prioridade, Ciclos, Recurso)
 
 🏗️ 3. Compilar
 
