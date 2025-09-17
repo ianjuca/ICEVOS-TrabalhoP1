@@ -10,7 +10,7 @@ public class Scheduler {
     public ListaDeProcessos<Processo> lista_bloqueados;
     private int contador;
 
-    public Scheduler(ListaDeProcessos<Processo> lista_alta_prioridade , ListaDeProcessos<Processo> lista_media_prioridade, ListaDeProcessos<Processo> lista_baixa_prioridade, ListaDeProcessos<Processo> lista_bloqueados){
+    public Scheduler(ListaDeProcessos<Processo> lista_alta_prioridade , ListaDeProcessos<Processo> lista_media_prioridade, ListaDeProcessos<Processo> lista_baixa_prioridade){
         this.lista_alta_prioridade = lista_alta_prioridade;
         this.lista_media_prioridade = lista_media_prioridade;
         this.lista_baixa_prioridade = lista_baixa_prioridade;

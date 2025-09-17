@@ -19,6 +19,15 @@ public class Main {
             if (processos.get(i).getPrioridade() == 1){
                 lista_alta_prioridade.add(processos.get(i), lista_alta_prioridade.tamanho);
             }
+            else if (processos.get(i).getPrioridade() == 2) {
+                lista_media_prioridade.add(processos.get(i), lista_media_prioridade.tamanho);
+            }else {
+                lista_baixa_prioridade.add(processos.get(i), lista_baixa_prioridade.tamanho);
+            }
+        }
+        Scheduler scheduler = new Scheduler(lista_alta_prioridade , lista_media_prioridade , lista_baixa_prioridade);
+        while (scheduler.lista_alta_prioridade.tamanho != 0 || scheduler.lista_media_prioridade.tamanho != 0 || scheduler.lista_baixa_prioridade.tamanho != 0){
+            scheduler.executarCicloDeCpu();
         }
     }
 }
