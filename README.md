@@ -63,7 +63,7 @@ Após esse comando, a pasta bin/ será criada com os arquivos .class.
 
 Para rodar o programa (classe principal Main):
 
-java -cp bin Main
+java -cp bin Main processos.txt
 
 🚀 Funcionalidades
 
