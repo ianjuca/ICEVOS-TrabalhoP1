@@ -7,7 +7,7 @@ Algoritmo e Estrutura de Dados I
 Dimmy Magalhães  
 
 ## 👨‍🎓 Integrante
-- Ian Rodrigues Jucá — Matrícula: *[insira aqui sua matrícula]*  
+- Ian Rodrigues Jucá — Matrícula: *1831961*  
 
 ## 🔗 Repositório
 [GitHub - ICEVOS-TrabalhoP1](https://github.com/ianjuca/ICEVOS-TrabalhoP1)
