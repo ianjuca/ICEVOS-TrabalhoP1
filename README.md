@@ -23,7 +23,8 @@ A lógica foi construída em **Java**, utilizando estruturas de dados personaliz
 - **`ListaDeProcessos` e `Node`**: Implementam uma lista encadeada para armazenar e gerenciar os processos.  
 - **`Scheduler`**: Responsável pelo escalonamento, aplicando regras de prioridade, anti-inanição e bloqueio de processos que precisam de recursos (ex.: DISCO).  
 - **`Leitor`**: Lê arquivos `.txt` de entrada contendo a lista de processos a serem executados.  
-- **`Main`**: Classe principal que inicializa o sistema, carrega os processos e executa o escalonador.  
+- **`Main`**: Classe principal que inicializa o sistema, carrega os processos e executa o escalonador.
+- **`processos.txt` Arquivo .txt com os processos que serão executados.
 
 O projeto foi desenvolvido para demonstrar conceitos de **filas de prioridade, escalonamento justo, prevenção de inanição e gerenciamento de bloqueio** em sistemas operacionais.
 
