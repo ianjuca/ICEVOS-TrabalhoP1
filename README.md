@@ -24,7 +24,7 @@ A lógica foi construída em **Java**, utilizando estruturas de dados personaliz
 - **`Scheduler`**: Responsável pelo escalonamento, aplicando regras de prioridade, anti-inanição e bloqueio de processos que precisam de recursos (ex.: DISCO).  
 - **`Leitor`**: Lê arquivos `.txt` de entrada contendo a lista de processos a serem executados.  
 - **`Main`**: Classe principal que inicializa o sistema, carrega os processos e executa o escalonador.
-- **`processos.txt` Arquivo .txt com os processos que serão executados.
+- **`processos.txt`** Arquivo .txt com os processos que serão executados.
 
 O projeto foi desenvolvido para demonstrar conceitos de **filas de prioridade, escalonamento justo, prevenção de inanição e gerenciamento de bloqueio** em sistemas operacionais.
 
@@ -49,7 +49,23 @@ ICEVOS-TrabalhoP1/
  │   │   └─ Node.java
  │   └─ LeitorTXT/
  │       └─ Leitor.java
- └─ bin/   (será gerada após compilação)
+ ├─ processos.txt   <-- Arquivo de entrada obrigatório
+ └─ bin/            <-- Gerado após compilação
+
+
+⚠️ IMPORTANTE:
+O arquivo processos.txt deve existir na raiz do projeto (mesmo nível da pasta src).
+Ele define os processos a serem executados pelo escalonador.
+
+Exemplo de conteúdo do processos.txt:
+
+1,Processo A,1,5,CPU1
+2,Processo B,1,3,Null
+3,Processo C,1,7,DISCO
+4,Processo D,1,4,IO
+
+
+(Formato ilustrativo: ID, Prioridade, Tempo de Execução)
 
 🏗️ 3. Compilar
 
