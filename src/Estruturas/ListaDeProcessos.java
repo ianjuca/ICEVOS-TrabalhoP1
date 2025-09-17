@@ -51,7 +51,7 @@ public class ListaDeProcessos<Tipo> {
             System.out.print(atual.valor + " -> ");
             atual = atual.prox;
         }
-        System.out.print("null");
+        System.out.println("null");
     }
 
     public Node<Tipo> remover(int pos) {
