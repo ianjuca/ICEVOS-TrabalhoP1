@@ -1,6 +1,6 @@
 package Estruturas;
 
-public class ListaDeProcessos {
+public class ListaDeProcessos<Tipo> {
     Node<Tipo> head,tail;
     public int tamanho;
 
